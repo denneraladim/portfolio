@@ -5,6 +5,12 @@ O projeto está publicado na Vercel:[Ver projeto online]()(Abre em uma nova aba)
 
 Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`** e Responsividade.
 
+## Tecnologias Utilizadas:
+
+- **`React`**  
+- **`Sass`** (pré-processador)  
+- **`TypeScript`**
+
 ## Documentações:
 
 - [vite](https://vitejs.dev/)
@@ -38,13 +44,6 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 1. Configuração do projeto React com TypeScript e estilização utilizando SASS, incluindo reset e estilos globais no arquivo **`globals.scss`**.
 2. Controle de versão do código utilizando Git e hospedagem no GitHub.
-
-
-## Tecnologias Utilizadas:
-
-- **`React`**  
-- **`Sass`** (pré-processador)  
-- **`TypeScript`**
 
 ## Funcionalidades:
 
