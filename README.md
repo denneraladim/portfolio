@@ -36,7 +36,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 ## Etapas do Desenvolvimento:
 
-1.  Configuração do projeto React com TypeScript e estilização utilizando SASS, incluindo reset e estilos globais no arquivo **`globals.scss`**.
+1. Configuração do projeto React com TypeScript e estilização utilizando SASS, incluindo reset e estilos globais no arquivo **`globals.scss`**.
 2. Controle de versão do código utilizando Git e hospedagem no GitHub.
 
 
