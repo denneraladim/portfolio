@@ -64,8 +64,4 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
   
 
-  
-
-
-
 
