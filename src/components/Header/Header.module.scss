@@ -1,4 +1,4 @@
-@use "../../styles/variables" as var;
+@use "../../styles/variables" as v;
 
 .header {
     width: 100%;
@@ -7,8 +7,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
-    background-color: var.$color-primary;
-    color: var.$color-white;
+    background-color: v.$color-primary;
+    color: v.$color-white;
 
     span{
         font-size: 24px;
@@ -22,10 +22,10 @@
         a{
             text-decoration: none;
             font-size: 18px;
-            color: var.$color-white;
+            color: v.$color-white;
 
             &:hover{
-                color: var.$color-red;
+                color: v.$color-red;
             }
         }
     }

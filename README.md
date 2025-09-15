@@ -45,7 +45,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 1. Configuração do projeto React com TypeScript e estilização utilizando SASS, incluindo reset e estilos globais no arquivo **`globals.scss`**.
 2. Controle de versão do código utilizando Git e hospedagem no GitHub.
 3. Criar uma pasta pages e components.
-4. Criar o componente Header
+4. Criar o componente Header e Footer
 4. Criar os estilos do CSS dos componentes
 5. Inserido a Font do Google Roboto em todo o Projeto
 
