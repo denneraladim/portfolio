@@ -8,10 +8,26 @@
     justify-content: space-between;
     padding: 0 16px;
     background-color: var.$color-primary;
-    color: #fff;
+    color: var.$color-white;
 
     span{
         font-size: 24px;
         font-weight: bold;
     }
+
+    nav{
+        display: flex;
+        gap: 20px;
+
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: var.$color-white;
+
+            &:hover{
+                color: var.$color-red;
+            }
+        }
+    }
 }
+
