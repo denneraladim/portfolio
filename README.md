@@ -48,6 +48,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 4. Criar uma pasta pages e components.
 5. Criar o componente Header e Footer
 6. Criar os estilos do CSS dos componentes
+7. Criar a página Home Provisória
 
 
 ## Funcionalidades:
