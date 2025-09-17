@@ -2,6 +2,7 @@ import type { JSX } from "react";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import { Link } from "react-router-dom";
 
 const Home = ():JSX.Element => {
     return (
@@ -14,7 +15,7 @@ const Home = ():JSX.Element => {
                         <span>Denner Aladim</span><br />
                         Dev Front End Júnior
                     </p>
-                    <button className='btn btn-red'>Saiba mais</button>
+                    <Link to="/sobre" className='btn btn-red'>Saiba mais</Link>
                 </div>
                 <figure>
                     <img className='img-home' src="./developer_blue.svg" alt="Imagem de Home" />
