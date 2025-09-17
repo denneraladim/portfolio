@@ -1,7 +1,13 @@
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 const Contatos = () => {
     return (
-        <h1>Contatos</h1>
+        <>
+          <Header/>
+          <h1>Contatos</h1> 
+          <Footer/>
+        </>
     )
 }
 
