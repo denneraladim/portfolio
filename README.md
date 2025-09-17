@@ -39,6 +39,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 ## Instalação das Dependências:
     npm install sass
+    npm install react-router-dom
 
 ## Etapas do Desenvolvimento:
 
@@ -49,6 +50,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 5. Criar o componente Header e Footer
 6. Criar os estilos do CSS dos componentes
 7. Criar as páginas Home, Sobre, Projetos e Contatos
+8. Instalar a Biblioteca de Gestor de Rotas
 
 
 ## Funcionalidades:
