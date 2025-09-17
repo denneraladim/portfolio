@@ -1,18 +1,22 @@
 
+import { Link, Links } from "react-router-dom";
 import styles from "./Header.module.scss";
 
 import type { JSX } from "react";
 
 
-const Header = ():JSX.Element => {
-    return(
+const Header = (): JSX.Element => {
+    return (
         <header className={styles.header}>
-            <span>denneraladim.dev</span>
+            <Link to="/" className={styles.logo}>
+                <span>denneraladim.dev</span>
+            </Link>
+            
             <nav>
-                <a href="">Home</a>
-                <a href="">Sobre</a>
-                <a href="">Projetos</a>
-                <a href="">Contatos</a>
+                <Link to="/">Home</Link>
+                <Link to="/sobre">Sobre</Link>
+                <Link to="/projetos">Projetos</Link>
+                <Link to="/contatos">Contatos</Link>
             </nav>
         </header>
     )

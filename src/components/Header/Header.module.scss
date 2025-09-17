@@ -10,10 +10,15 @@
     background-color: v.$color-primary;
     color: v.$color-white;
 
-    span{
-        font-size: 24px;
-        font-weight: bold;
-    }
+    .logo {
+  text-decoration: none;
+  color: v.$color-white;
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
 
     nav{
         display: flex;

@@ -52,6 +52,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 7. Criar as páginas Home, Sobre, Projetos e Contatos
 8. Instalar a Biblioteca de Gestor de Rotas
 9. Criar o Arquivo de Rotas (routes.tsx)
+10. Substituir as ancoras pelo links do React Router dom do componente Header
 
 
 ## Funcionalidades:
