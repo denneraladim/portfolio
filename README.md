@@ -49,7 +49,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 4. Criar uma pasta pages e components.
 5. Criar o componente Header, Footer e Container
 6. Criar os estilos do CSS dos componentes
-7. Criar as páginas Home, Sobre, Projetos e Contatos
+7. Criar as páginas Home, Sobre, Projetos, Contatos e NotFound
 8. Instalar a Biblioteca de Gestor de Rotas
 9. Criar o Arquivo de Rotas (routes.tsx)
 10. Substituir as ancoras pelo links do React Router dom do componente Header
