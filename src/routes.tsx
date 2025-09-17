@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contatos from "./pages/Contatos";
 import Projetos from "./pages/Projetos";
+import NotFound from "./pages/NotFound";
 
 const AppRoutes = () => {
     return (
@@ -13,9 +14,11 @@ const AppRoutes = () => {
                 <Route path="/sobre" element={ <Sobre/>}/>
                 <Route path="/projetos" element={ <Projetos/>}/>
                 <Route path="/contatos" element={ <Contatos/>}/>
+                <Route path="*" element={ <NotFound/>}/>
             </Routes>
         </BrowserRouter>
     )
 }
 
 export default AppRoutes;
+
