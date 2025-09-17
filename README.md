@@ -47,7 +47,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 2. Inserido a Font do Google Roboto em todo o Projeto
 3. Controle de versão do código utilizando Git e hospedagem no GitHub.
 4. Criar uma pasta pages e components.
-5. Criar o componente Header e Footer
+5. Criar o componente Header, Footer e Container
 6. Criar os estilos do CSS dos componentes
 7. Criar as páginas Home, Sobre, Projetos e Contatos
 8. Instalar a Biblioteca de Gestor de Rotas
@@ -58,6 +58,8 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 ## Funcionalidades:
 
 1. Criado as Funções em Arrow Function com as Tipagem do TypeScript
+2. Criar o Container com a Tipagem
+3. Criar a página não encontrada ou não localizada
 
 
 ##  Responsividade
