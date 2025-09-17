@@ -17,7 +17,7 @@ const Home = ():JSX.Element => {
                     <button className='btn btn-red'>Saiba mais</button>
                 </div>
                 <figure>
-                    <img className='img-home' src="./web-developer.svg" alt="Imagem de Home" />
+                    <img className='img-home' src="./developer_blue.svg" alt="Imagem de Home" />
                 </figure>
             </section>
             <Footer />
