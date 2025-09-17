@@ -51,6 +51,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 6. Criar os estilos do CSS dos componentes
 7. Criar as páginas Home, Sobre, Projetos e Contatos
 8. Instalar a Biblioteca de Gestor de Rotas
+9. Criar o Arquivo de Rotas (routes.tsx)
 
 
 ## Funcionalidades:
