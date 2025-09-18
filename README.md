@@ -33,11 +33,6 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
      npm run dev  
 
-## A aplicação será iniciada na porta  5173, acesse pelo navegador:
-
-    http://localhost:5173/      
-
-
 ## Instalação das Dependências:
     npm install sass
     npm install react-router-dom
