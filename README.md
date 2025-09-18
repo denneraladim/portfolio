@@ -55,6 +55,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 8. Instalar a Biblioteca de Gestor de Rotas
 9. Criar o Arquivo de Rotas (routes.tsx)
 10. Substituir as ancoras pelo links do React Router dom do componente Header
+11. Instalado a Biblioteca React Icons
 
 
 ## Funcionalidades:
