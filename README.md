@@ -44,7 +44,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 2. Inserido a Font do Google Roboto em todo o Projeto
 3. Controle de versão do código utilizando Git e hospedagem no GitHub.
 4. Criar uma pasta pages e components.
-5. Criar o componente Header, Footer e Container
+5. Criar os componentes Header, Footer, Container e Card
 6. Criar os estilos do CSS dos componentes
 7. Criar as páginas Home, Sobre, Projetos, Contatos e NotFound
 8. Instalar a Biblioteca de Gestor de Rotas
