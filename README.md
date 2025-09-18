@@ -18,6 +18,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 - [Sass](https://sass-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React-Router-Dom](https://reactrouter.com/)
+[React Icons](https://react-icons.github.io/react-icons/)
 
 ## Clonar o Repositório:
 
@@ -40,6 +41,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 ## Instalação das Dependências:
     npm install sass
     npm install react-router-dom
+    npm install react-icons
 
 ## Etapas do Desenvolvimento:
 
