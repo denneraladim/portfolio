@@ -1,22 +1,46 @@
-import Container from "../../components/Container";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 
 import styles from "./Contatos.module.scss";
 
-const Contatos = () => {
+import type { JSX } from "react";
+
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+
+import Container from "../../components/Container";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import { GoMail } from "react-icons/go";
+
+
+const Contatos = ():JSX.Element => {
     return (
         <>
           <Header/>
          <Container>
-           <section className={styles.contatos}>
+           <main className={styles.contatos}>
               <h2>Contatos</h2>
               <h3>Entre em Contato</h3>
               <p>Para conversarmos sobre projetos e oportunidades.</p>
               <div className={styles.icones}>
-                Ícones
+                <a
+                 href="mailto:dennerdangelo57@gmail.com"
+                 target="_blank"
+                 rel='noopener noreferrer'
+                 aria-label="Enviar email">
+                  <GoMail className={styles.icone}/>
+                 </a>
+                <a 
+                href="https://wa.me/5531997828024" target='_blank' rel='noopener noreferrer'
+                aria-label="Enviar Mensagem">
+                    <FaWhatsapp  className={styles.icone}/>
+                </a>
+                
+                <a
+                 href='https://www.linkedin.com/in/Denner-Dangelo-Aladim-de-castro/' target='_blank' rel='noopener noreferrer'
+                 aria-label="Visitar perfil no LinkedIn">
+                    <FaLinkedin className={styles.icone} />
+                </a>
               </div>
-            </section> 
+            </main> 
          </Container>
           <Footer/>
         </>

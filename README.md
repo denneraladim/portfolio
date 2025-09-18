@@ -63,6 +63,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 1. Criado as Funções em Arrow Function com as Tipagem do TypeScript
 2. Criar o Container com a Tipagem
 3. Criar a página não encontrada ou não localizada
+4. Inserido os Icones na pagina de contatos
 
 
 ##  Responsividade
