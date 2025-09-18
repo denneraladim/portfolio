@@ -53,7 +53,6 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 11. Instalado a Biblioteca React Icons
 12. Criar as Rotas Aninhadas
 13. Criar a Pagina Base
-14. Criar a arquivo type para as imagens com o TypeScript
 
 
 ## Funcionalidades:
