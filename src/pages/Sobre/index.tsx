@@ -4,7 +4,7 @@ import styles from "./Sobre.module.scss";
 import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
-import Foto from "./images/denner.jpg";
+import Foto from "./images/denner.png";
 
 const Sobre = (): JSX.Element => {
   return (
