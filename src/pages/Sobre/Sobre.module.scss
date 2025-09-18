@@ -1,0 +1,80 @@
+@use "../../styles/variables" as v;
+
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 30px;
+        padding-inline: 20px;
+
+        span {
+            color: v.$color-red;
+            font-weight: bold;
+        }
+
+        strong {
+            color: v.$color-secondary;
+            font-weight: bold;
+        }
+
+        .Foto {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+
+    }
+
+    .textos {
+        width: 100%;
+        text-align: center;
+        padding-inline: 20px;
+        line-height: 1.5;
+        
+
+
+        h2,
+        p {
+            margin-bottom: 20px;
+        }
+    }
+
+
+
+    .techs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        .icones {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+
+            .icone {
+                font-size: 40px;
+                color: v.$color-secondary;
+                height: 40px;
+            }
+        }
+    }
+}
