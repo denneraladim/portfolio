@@ -52,6 +52,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 10. Substituir as ancoras pelo links do React Router dom do componente Header
 11. Instalado a Biblioteca React Icons
 12. Criar as Rotas Aninhadas
+13. Criar a Pagina Base
 
 
 ## Funcionalidades:
