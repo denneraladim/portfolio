@@ -67,6 +67,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 7. Criar o UseEffect para fazer uma Requisição Assincrona
 8. Criar a Função de Busca
 9. Criar a Redenrização Condicional
+10. Criar o Mapeamento dos Repositórios
 
 
 

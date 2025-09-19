@@ -24,9 +24,7 @@
 
     .card_footer {
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @include mixins.flex-center;
         gap: 12px;
     }
 
@@ -54,49 +52,3 @@
 
 
 
-//   h3 {
-//     color: v.$color-primary;
-//     font-size: 1.2rem;
-//     margin-top: 8px;
-//     text-align: center;
-//   }
-
-//   p {
-//     color: #555;
-//     margin-top: 12px;
-//     text-align: center;
-//     flex-grow: 1;
-//   }
-
-//   &_footer {
-//     width: 100%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin-top: 16px;
-//     gap: 12px;
-//     flex-wrap: wrap;
-//   }
-
-//   &_botao {
-//     flex: 1;
-//     max-width: 140px;
-//     height: 48px;
-//     border: 0;
-//     border-radius: 8px;
-//     font-size: 16px;
-//     cursor: pointer;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     background-color: v.$color-secondary;
-//     color: v.$color-white;
-//     transition: all 0.3s ease;
-
-//     &:hover {
-//       color: v.$color-red;
-//     }
-//   }
-// }
