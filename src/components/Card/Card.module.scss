@@ -42,6 +42,7 @@
         background-color: v.$color-secondary;
         color: v.$color-white;
         transition: all 0.3s ease;
+        text-decoration: none;
      
         &:hover {
            background-color: v.$color-gray;

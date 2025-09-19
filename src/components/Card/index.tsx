@@ -1,19 +1,22 @@
 
+import { Link } from "react-router-dom";
 import styles from "./Card.module.scss";
 
+interface cardProps {
+    title:string;
+    description:string
+    html_url:string;
+    homepage?:string;
+}
 
-const Card = () => {
+const Card = ({title, description,html_url}:cardProps) => {
     return (
         <section className={styles.card}>
-            <h3>Título do projeto</h3>
-            <p>Texto descritivo do projeto</p>
+            <h3>{title}</h3>
+            <p>{description}</p>
             <div className={styles.card_footer}>
-                <button className={styles.card_botao}>
-                    Ver código
-                </button>
-                <button className={styles.card_botao}>
-                    Acessar Projeto
-                </button>
+                <Link to={html_url} className={styles.card_botao}>Ver Código</Link>
+                <Link to={html_url} className={styles.card_botao}>Acessar Projeto</Link>
             </div>
         </section>
     )
