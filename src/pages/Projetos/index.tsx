@@ -16,7 +16,7 @@ const Projetos = () => {
 
     useEffect(()=>{
         const buscarRepositorios = async () => {
-            const response = await fetch("https://api.github.com/users/denneraladim/repos")
+            const response = await fetch("https://api.github.com/users/denneraladim/repos?pages=1&per_page=20")
 
             const data = await response.json()
 
