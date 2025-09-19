@@ -1,5 +1,6 @@
 
 @use "../../styles/colors"as v;
+@use "../../styles/mixins";
 
 .contatos {
   width: 100%;
@@ -13,9 +14,7 @@
 
 .icones {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include mixins.flex-center;
   gap: 32px;
   padding-block: 16px;
 }

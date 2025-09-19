@@ -1,5 +1,6 @@
 
 @use "../../styles/colors"as v;
+@use "../../styles/mixins";
 
 .home {
   width: 100%;
@@ -38,9 +39,7 @@
   border: 0;
   border-radius: 8px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include mixins.flex-center;
   text-decoration: none;
 
   &-red {
