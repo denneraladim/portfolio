@@ -1,1 +1,97 @@
+@use "../../styles/variables" as v;
 
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: v.$color-soft-white;
+    color: v.$color-gray;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #22222270;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        color: v.$color-primary;
+    }
+
+    p {
+        color: #555;
+    }
+
+    .card_footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .card_botao {
+        width: 100%;
+        max-width: 200px;
+        height: 48px;
+        border: 0;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: v.$color-secondary;
+        color: v.$color-white;
+        transition: all 0.3s ease;
+    }
+}
+
+
+
+
+//   h3 {
+//     color: v.$color-primary;
+//     font-size: 1.2rem;
+//     margin-top: 8px;
+//     text-align: center;
+//   }
+
+//   p {
+//     color: #555;
+//     margin-top: 12px;
+//     text-align: center;
+//     flex-grow: 1;
+//   }
+
+//   &_footer {
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 16px;
+//     gap: 12px;
+//     flex-wrap: wrap;
+//   }
+
+//   &_botao {
+//     flex: 1;
+//     max-width: 140px;
+//     height: 48px;
+//     border: 0;
+//     border-radius: 8px;
+//     font-size: 16px;
+//     cursor: pointer;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     background-color: v.$color-secondary;
+//     color: v.$color-white;
+//     transition: all 0.3s ease;
+
+//     &:hover {
+//       color: v.$color-red;
+//     }
+//   }
+// }
