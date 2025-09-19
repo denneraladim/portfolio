@@ -62,6 +62,12 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 2. Criar o Container com a Tipagem
 3. Criar a página não encontrada ou não localizada
 4. Inserido os Icones na pagina de contatos
+5. Criar o State para passar os cards dinamicamente
+6. Criar a Requisição da API do github
+7. Criar o UseEffect para fazer uma Requisição Assincrona
+8. Criar a Função de Busca
+9. Criar a Redenrização Condicional
+
 
 
 ##  Responsividade
