@@ -20,7 +20,11 @@ const Projetos = () => {
 
             const data = await response.json()
 
-            setRepositories(data)
+            const filtrados = data.filter((repo:Repository)=>{
+                return repo.name !== "denneraladim";
+            })
+
+            setRepositories(filtrados);
         }
         buscarRepositorios()
 
@@ -36,7 +40,7 @@ const Projetos = () => {
                         <Card
                          key={repo.id}
                          title={repo.name}
-                         description={repo.description}
+                         description={repo.description || "Sem descrição"}
                          html_url={repo.html_url}
                         />
                     ))
