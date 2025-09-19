@@ -1,5 +1,6 @@
 
 @use "../../styles/colors" as v;
+@use "../../styles/mixins";
 
 
 .footer{
@@ -9,9 +10,7 @@
     color: v.$color-white;
     font-weight: bold;
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include mixins.flex-center;
     position: fixed;
     bottom: 0;
 }
