@@ -1,4 +1,5 @@
 @use "../../styles/colors" as v;
+@use "../../styles/mixins";
 
 .card {
     width: 300px;
@@ -37,9 +38,7 @@
         border-radius: 8px;
         font-size: 16px;
         cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include mixins.flex-center;
         background-color: v.$color-secondary;
         color: v.$color-white;
         transition: all 0.3s ease;
