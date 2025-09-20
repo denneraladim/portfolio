@@ -17,3 +17,39 @@
 
   }
 }
+
+@media (min-width: 768px) {
+  .projetos {
+    padding-block: 60px;
+
+    .lista {
+      gap: 32px;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .projetos {
+    padding-block: 80px;
+
+    .lista {
+      gap: 40px;
+      justify-content: flex-start;
+      max-width: 1200px; 
+      margin-inline: auto;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .projetos {
+    padding-block: 100px;
+
+    .lista {
+      gap: 48px;
+      max-width: 1400px;
+    }
+  }
+}
+
