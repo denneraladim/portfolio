@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-inline: 16px;
 
   figure {
     img {
@@ -51,3 +52,54 @@
     }
   }
 }
+
+@media (min-width: 768px){
+  .home {
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 80vh;
+    gap: 80px;
+
+    figure {
+      img {
+        max-width: 350px;
+      }
+    }
+
+    p {
+      font-size: 48px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      max-width: 250px;
+      height: 56px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .home {
+     min-height: 100vh;
+
+     figure {
+      img {
+        max-width: 400px;
+      }
+     }
+
+      p {
+      font-size: 56px;
+    }
+
+    .btn {
+      max-width: 280px;
+      height: 60px;
+      font-size: 20px;
+    }    
+  }   
+
+   
+  }
