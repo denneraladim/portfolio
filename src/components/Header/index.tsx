@@ -1,15 +1,13 @@
 
 import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
-
 import type { JSX } from "react";
-
 
 const Header = (): JSX.Element => {
     return (
         <header className={styles.header}>
             <Link to="/" className={styles.logo}>
-                <span>denneraladim.dev</span>
+                <span>denner.dev</span>
             </Link>
             
             <nav>
@@ -23,4 +21,3 @@ const Header = (): JSX.Element => {
 }
 
 export default Header;
-
