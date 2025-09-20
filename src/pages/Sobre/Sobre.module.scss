@@ -80,36 +80,3 @@
     }
 }
 
-@media (min-width: 768px) {
-    .sobre {
-        .bio {
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .Foto {
-            max-width: 250px;
-            margin-bottom: 0;
-        }
-
-        .textos {
-            text-align: left;
-            padding-inline: 0;
-        }
-    }
-
-    .techs {
-        .icones {
-            gap: 20px;
-
-            .icone {
-                font-size: 48px;
-                height: 48px;
-            }
-        }
-    }
-}
-

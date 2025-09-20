@@ -58,7 +58,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     min-height: 80vh;
-    gap: 80px;
+    gap: 60px;
 
     figure {
       img {
@@ -82,7 +82,9 @@
 @media (min-width: 1024px) {
 
   .home {
-     min-height: 100vh;
+     min-height: auto;
+     justify-content: flex-start;
+     padding-top: 80px;
 
      figure {
       img {
@@ -103,3 +105,25 @@
 
    
   }
+
+  @media (min-width: 1280px) {
+  .home {
+    gap: 80px;
+    padding-top: 100px;
+
+    figure img {
+      max-width: 450px;
+    }
+
+    p {
+      font-size: 60px;
+    }
+
+    .btn {
+      max-width: 300px;
+      height: 64px;
+      font-size: 22px;
+    }
+  }
+}
+
