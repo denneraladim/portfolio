@@ -1,4 +1,3 @@
-
 @use "../../styles/colors" as v;
 
 .header {
@@ -14,28 +13,29 @@
     top: 0;
 
     .logo {
-  text-decoration: none;
-  color: v.$color-white;
+        text-decoration: none;
+        color: v.$color-white;
 
-  span {
-    font-size: 24px;
-    font-weight: bold;
-  }
-}
-
-    nav{
+        span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+     nav{
         display: flex;
         gap: 20px;
-
-        a{
+        a {
             text-decoration: none;
             font-size: 18px;
             color: v.$color-white;
 
-            &:hover{
+            &:hover {
                 color: v.$color-red;
             }
         }
-    }
-}
 
+        
+
+    }
+
+}
