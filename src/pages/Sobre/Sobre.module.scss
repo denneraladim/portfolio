@@ -93,3 +93,14 @@
     }
     
 }
+
+
+@media (min-width: 1024px) {
+   .bio {
+      gap: 40px;
+
+      .Foto {
+        max-width: 300px;
+      }
+   }
+  }
