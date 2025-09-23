@@ -29,18 +29,17 @@
   }
 }
 
+@media (max-width: 768px){
+  .contatos {
+    text-align: center;
+    padding-inline: 20px;
+  }
+}
 
-// @media (min-width: 768px) {
-//   .contatos {
-//     gap: 24px;
-//   }
-
-//   .icones {
-//     justify-content: space-evenly;
-//     padding-block: 24px;
-//   }
-
-//   .icone {
-//     font-size: 48px;
-//   }
-// }
+@media (max-width: 480px){
+  .contatos {
+    .icones {
+      gap: 8px;
+    }
+  }
+}
