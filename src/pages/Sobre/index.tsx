@@ -17,9 +17,9 @@ const Sobre = (): JSX.Element => {
             <h2>Sobre</h2>
             <p>Sou <span>Denner Aladim</span><br />
               <strong>Desenvolvedor Front End Júnior</strong></p>
-            <p>Trabalho com desenvolvimento web, criando interfaces intuitivas e funcionais com HTML, CSS, JavaScript, TypeScript e React.</p>
-            <p>Busco oportunidades para iniciar minha carreira, contribuindo com projetos inovadores e aprendendo continuamente em um ambiente colaborativo.</p>
-            <p>Meu objetivo é transformar ideias em experiências digitais de qualidade, sempre atento à facilidade de uso e ao design responsivo.</p>
+            <p>Trabalho com desenvolvimento web criando interfaces intuitivas e funcionais, buscando oportunidades para contribuir com projetos inovadores e aprender continuamente.</p>
+            <p>Meu objetivo é transformar ideias em experiências digitais com foco em design responsivo e entregando soluções que encantem os usuários.</p>
+            <p>Tenho paixão por criar interfaces limpas e interativas, sempre focando na experiência do usuário.</p>
           </div>
         </div>
         <div className={styles.techs}>
