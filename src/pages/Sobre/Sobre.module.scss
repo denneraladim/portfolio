@@ -15,7 +15,6 @@
         align-items: center;
         gap: 16px;
         margin-bottom: 24px;
-        // padding-inline: 20px;
 
         span {
             color: v.$color-red;
@@ -78,6 +77,31 @@
         }
     }
 }
+
+
+@media (max-width: 768px){
+    .sobre {
+        .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 16px;
+
+        .Foto {
+            max-width: 50%;
+        }
+    }
+}
+    }
+    
+
+@media (max-width: 480px){
+    .sobre {
+        .icones {
+            gap: 8px;
+        }
+    }
+}
+
 
 
 // @media(max-width: 768px){
