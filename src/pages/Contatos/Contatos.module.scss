@@ -20,9 +20,9 @@
 }
 
 .icone {
-  font-size: 32px;
+  font-size: 40px;
   color: v.$color-red;
-  transition: color 0.3s ease;
+  transition: 0.3s ease;
 
   &:hover {
     color: v.$color-primary;
