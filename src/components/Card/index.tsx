@@ -5,9 +5,10 @@ interface cardProps {
     title: string;
     description: string
     html_url: string;
+    projeto_url?:string;
 }
 
-const Card = ({ title, description, html_url }: cardProps) => {
+const Card = ({ title, description, html_url,projeto_url }: cardProps) => {
     return (
         <section className={styles.card}>
             <h3>{title}</h3>
@@ -21,6 +22,17 @@ const Card = ({ title, description, html_url }: cardProps) => {
                 >
                     Ver Código
                 </a>
+                
+                 {projeto_url && (
+                    <a
+                        href={projeto_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.card_botao}
+                    >
+                        Acessar Projeto
+                    </a>
+                )}
             </div>
         </section>
     )

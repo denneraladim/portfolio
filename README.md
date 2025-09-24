@@ -70,6 +70,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 10. Criar o Mapeamento dos Repositórios
 11. Criar a Responsividade
 12. Criar o Menu Sandwich
+13. Criar o mapeamento dos links dos projetos
 
 
 

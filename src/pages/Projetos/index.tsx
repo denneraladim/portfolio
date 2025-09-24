@@ -8,7 +8,17 @@ interface Repository {
     name:string;
     html_url:string;
     description:string;
-}
+    projeto_url:string;
+};
+
+
+// Mapeamento dos links dos projetos
+const projetos: Record<string, string> = {
+    "buscador-cep": "https://buscador-cep-ecru-nu.vercel.app/",
+    "Calculadora": "https://calculadora-sage-zeta.vercel.app/",
+    "todo-list-javascript": "https://todo-list-javascript-lilac.vercel.app/",
+    "portfolio": "https://portfolio-opal-six-18.vercel.app/"
+};
 
 const Projetos = () => {
 
@@ -42,6 +52,7 @@ const Projetos = () => {
                          title={repo.name}
                          description={repo.description || "Sem descrição"}
                          html_url={repo.html_url}
+                         projeto_url={projetos[repo.name]}
                         />
                     ))
                 }
