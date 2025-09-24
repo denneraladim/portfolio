@@ -69,6 +69,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 9. Criar a Redenrização Condicional
 10. Criar o Mapeamento dos Repositórios
 11. Criar a Responsividade
+12. Criar o Menu Sandwich
 
 
 
