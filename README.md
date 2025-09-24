@@ -1,7 +1,7 @@
 
 # Portfolio
 
-O projeto está publicado na Vercel:[https://portfolio-opal-six-18.vercel.app/]()(Abre em uma nova aba)
+O projeto está publicado na Vercel:[Acessar Projeto](https://portfolio-opal-six-18.vercel.app/)(Abre em uma nova aba)
 
 Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`** e Responsividade.
 
@@ -40,39 +40,59 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 ## Etapas do Desenvolvimento:
 
-1. Configuração do projeto React com TypeScript e estilização utilizando SASS, incluindo reset e estilos globais no arquivo **`globals.scss`**.
-2. Inserido a Font do Google Roboto em todo o Projeto
-3. Controle de versão do código utilizando Git e hospedagem no GitHub.
-4. Criar uma pasta pages e components.
-5. Criar os componentes Header, Footer, Container e Card
-6. Criar os estilos do CSS dos componentes
-7. Criar as páginas Home, Sobre, Projetos, Contatos e NotFound
-8. Instalar a Biblioteca de Gestor de Rotas
-9. Criar o Arquivo de Rotas (routes.tsx)
-10. Substituir as ancoras pelo links do React Router dom do componente Header
-11. Instalado a Biblioteca React Icons
-12. Criar as Rotas Aninhadas
-13. Criar a Pagina Base
-14. Criar o Arquivo Mixins
+1. Configuração do projeto React com TypeScript e Sass, incluindo reset e estilos globais.
+
+2. Inserção da fonte Roboto via Google Fonts.
+
+3. Controle de versão com Git e hospedagem no GitHub.
+
+4. Criação das Pastas Pages e Components.
+
+5. Desenvolvimento de componentes: Header, Footer, Container e Card.
+
+6. Criação das páginas: Home, Sobre, Projetos, Contatos e NotFound.
+
+7. Configuração de rotas com React Router DOM, incluindo rotas aninhadas.
+
+8. Uso da biblioteca React Icons para ícones.
+
+9. Implementação da API do GitHub para listar projetos dinamicamente.
+
+10. Criação do menu hamburger, responsividade e mapeamento dos links dos projetos.
+
+11. Criação de arquivos de **`Sass Mixins`** para reutilização de estilos.
+
+12. Mapeamento dos links dos projetos no portfólio.
+
 
 
 ## Funcionalidades:
 
-1. Criado as Funções em Arrow Function com as Tipagem do TypeScript
-2. Criar o Container com a Tipagem
-3. Criar a página não encontrada ou não localizada
-4. Inserido os Icones na pagina de contatos
-5. Criar o State para passar os cards dinamicamente
-6. Criar a Requisição da API do github
-7. Criar o UseEffect para fazer uma Requisição Assincrona
-8. Criar a Função de Busca
-9. Criar a Redenrização Condicional
-10. Criar o Mapeamento dos Repositórios
-11. Criar a Responsividade
-12. Criar o Menu Sandwich
-13. Criar o mapeamento dos links dos projetos
+1. Componentes criados como Arrow Functions com tipagem do TypeScript.
 
+2. Container tipado para estruturar componentes de forma consistente.
 
+3. Página 404 personalizada (não encontrada).
+
+4. Ícones inseridos na página de contatos utilizando React Icons.
+
+5. State para renderizar dinamicamente os cards de projetos.
+
+6. Requisição da API do GitHub para listar repositórios.
+
+7. Hooks (useEffect) para requisições assíncronas.
+
+8. Função de busca para filtrar projetos dinamicamente.
+
+9. Renderização condicional baseada nos dados da API.
+
+10. Mapeamento dos repositórios para gerar os cards automaticamente.
+
+11. Menu Hamburger (Sandwich) totalmente funcional e responsivo.
+
+12. Responsividade do layout para diferentes dispositivos e telas.
+
+13. Mapeamento dos links dos projetos no portfólio, integrando GitHub e links do site.
 
 ##  Responsividade
 
