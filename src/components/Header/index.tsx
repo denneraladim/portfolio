@@ -14,7 +14,7 @@ const Header = (): JSX.Element => {
     return (
         <header className={styles.header}>
             <Link to="/" className={styles.logo}>
-                <span>dennerAladim.dev</span>
+                <span>denner.dev</span>
             </Link>
             
             <nav
