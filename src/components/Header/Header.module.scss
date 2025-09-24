@@ -2,65 +2,74 @@
 @use "../../styles/colors" as v;
 
 .header {
-    width: 100%;
-    min-height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0 16px;
-    background-color: v.$color-primary;
+  width: 100%;
+  height: 50px;
+  background-color: v.$color-primary;
+  color: v.$color-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
     color: v.$color-white;
-    position: fixed;
-    top: 0;
+    padding-right: 24px;
+    font-size: 18px;
 
-    .logo {
-        text-decoration: none;
-        color: v.$color-white;
-
-        span {
-            font-size: 24px;
-            font-weight: bold;
-        }
+    &:hover {
+      color: v.$color-red;
     }
-     nav{
-        display: flex;
-        gap: 20px;
-        a {
-            text-decoration: none;
-            font-size: 18px;
-            color: v.$color-white;
+  }
 
-            &:hover {
-                color: v.$color-red;
-            }
-        }
+  @media (max-width: 768px) {
+    justify-content: space-between; 
 
-        
-
-    }
-
-}
-
-/* Menu Sandwich */
-
-@media (max-width:768px){
     .menuButton {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 20px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 20px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
 
-    .linha {
+      .linha {
         display: block;
         width: 100%;
         height: 2px;
         background-color: white;
+      }
     }
-}
-}
 
+    .menuSandwich {
+      display: none;
+
+      &.show {
+        display: flex;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: v.$color-primary;
+        flex-direction: column;
+        padding: 20px;
+        gap: 16px;
+
+        a {
+          display: block;
+          padding: 8px 0;
+        }
+      }
+    }
+  }
+}
