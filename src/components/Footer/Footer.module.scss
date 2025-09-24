@@ -1,4 +1,5 @@
 @use "../../styles/colors" as v;
+@use "../../styles/mixins";
 
 
 .footer {
@@ -8,9 +9,7 @@
     color: v.$color-white;
     font-weight: bold;
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
     position: fixed;
     bottom: 0;
 }
@@ -28,10 +27,4 @@
     }
 }
 
-
-// @media (min-width: 768px) {
-//     .footer {
-//         font-size: 16px;
-//     }
-// }
 
