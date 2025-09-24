@@ -4,10 +4,7 @@
 .sobre {
     width: 100%;
     min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include mixins.flex-column-center;
     padding-block: 40px;
 
     .bio {
@@ -54,9 +51,7 @@
 
     .techs {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include mixins.flex-center-column;
         gap: 20px;
 
         .icones {
