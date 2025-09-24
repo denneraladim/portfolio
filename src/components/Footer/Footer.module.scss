@@ -9,7 +9,7 @@
     color: v.$color-white;
     font-weight: bold;
     font-size: 18px;
-    @include flex-center;
+    @include mixins.flex-center;
     position: fixed;
     bottom: 0;
 }
@@ -26,5 +26,6 @@
         font-size: 14px;
     }
 }
+
 
 
