@@ -1,15 +1,16 @@
 
 # Portfolio
 
-O projeto está publicado na Vercel:[Acessar Projeto](https://portfolio-opal-six-18.vercel.app/)(Abre em uma nova aba)
+O projeto está publicado na Vercel:[Acessar Projeto](https://portfolio-opal-six-18.vercel.app/) (Abre em uma nova aba)
 
-Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`** e Responsividade.
+Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**, **`API Fetch`** e Responsividade.
 
 ## Tecnologias Utilizadas:
 
 - **`React`**  
 - **`Sass`** (pré-processador)  
 - **`TypeScript`**
+- **`Vite`**
 
 ## Documentações:
 
@@ -18,7 +19,7 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 - [Sass](https://sass-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React-Router-Dom](https://reactrouter.com/)
-[React Icons](https://react-icons.github.io/react-icons/)
+[react-icons](https://react-icons.github.io/react-icons/)
 
 ## Clonar o Repositório:
 
@@ -58,12 +59,9 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 9. Implementação da API do GitHub para listar projetos dinamicamente.
 
-10. Criação do menu hamburger, responsividade e mapeamento dos links dos projetos.
+10. Criação do menu hamburger e mapeamento dos links dos projetos.
 
-11. Criação de arquivos de **`Sass Mixins`** para reutilização de estilos.
-
-12. Mapeamento dos links dos projetos no portfólio.
-
+11. Criação e utilização de **`Sass Mixins`** para centralizar e reutilizar estilos, deixando o código mais limpo e de fácil manutenção.
 
 
 ## Funcionalidades:
@@ -86,17 +84,21 @@ Essa aplicação foi desenvolvida utilizando **`Github`**, **`React`**, **`TypeS
 
 9. Renderização condicional baseada nos dados da API.
 
-10. Mapeamento dos repositórios para gerar os cards automaticamente.
+10. Listagem dinâmica dos repositórios do GitHub com geração automática de cards e links.
 
-11. Menu Hamburger (Sandwich) totalmente funcional e responsivo.
+11. Menu Hamburger totalmente funcional e responsivo.
 
-12. Responsividade do layout para diferentes dispositivos e telas.
-
-13. Mapeamento dos links dos projetos no portfólio, integrando GitHub e links do site.
 
 ##  Responsividade
 
-- O layout foi projetado para funcionar bem em **dispositivos móveis**, mas também se adapta a telas maiores, garantindo boa experiência em diferentes resoluções.
+- Layout projetado para funcionar bem em dispositivos móveis, mas também adaptado a telas maiores.
+
+- Implementada com Sass Mixins para centralização e reutilização de estilos.
+
+- Uso de media queries para adaptação de fontes, espaçamentos e layout em diferentes resoluções.
+
+- Menu Hamburger funcional para navegação em dispositivos móveis.
+
 
 ## Licença
 
