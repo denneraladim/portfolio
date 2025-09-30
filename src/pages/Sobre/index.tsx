@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 
 import styles from "./Sobre.module.scss";
-import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJs, FaReact, FaSass } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 import Foto from "./images/denner.png";
@@ -30,6 +30,7 @@ const Sobre = (): JSX.Element => {
             <FaJs className={styles.icone} />
             <SiTypescript className={styles.icone} />
             <FaReact className={styles.icone} />
+            <FaSass className={styles.icone} />
           </div>
         </div>
       </section>
