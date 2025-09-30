@@ -13,11 +13,13 @@ interface Repository {
 
 
 // Mapeamento dos links dos projetos
+
 const projetos: Record<string, string> = {
     "buscador-cep": "https://buscador-cep-ecru-nu.vercel.app/",
     "Calculadora": "https://calculadora-sage-zeta.vercel.app/",
     "todo-list-javascript": "https://todo-list-javascript-lilac.vercel.app/",
-    "portfolio": "https://portfolio-opal-six-18.vercel.app/"
+    "portfolio": "https://portfolio-opal-six-18.vercel.app/",
+    "agencia-turismo-react": "https://agencia-turismo-react.vercel.app/"
 };
 
 const Projetos = () => {
