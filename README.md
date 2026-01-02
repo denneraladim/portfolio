@@ -1,108 +1,63 @@
 
 # Portfolio
 
-O projeto está publicado na Vercel:[Acessar Projeto](https://portfolio-opal-six-18.vercel.app/) (Abre em uma nova aba)
+Aplicação front-end pessoal, desenvolvida com foco em boas práticas de desenvolvimento, organização de componentes, responsividade e integração com API externa. O projeto apresenta meus trabalhos de forma dinâmica, permitindo navegação fluida entre páginas e visualização de projetos diretamente do GitHub.
 
-Essa aplicação foi desenvolvida utilizando **`GitHub`**, **`React`**, **`TypeScript`**, **`Sass`**, **`React Router Dom`**, **`API Fetch`** e Responsividade.
+🔗 Projeto online: https://portfolio-opal-six-18.vercel.app/
+
+
+## Diferenciais do Projeto
+
+- Listagem dinâmica de projetos a partir da API do GitHub
+- Componentes reutilizáveis e organizados
+- Navegação entre páginas utilizando React Router Dom
+- Estilização organizada com Sass
+- Layout responsivo
+- Código desenvolvido com TypeScript
+
+
+## Estrutura do Projeto
+
+O projeto segue uma organização baseada em componentes, com separação clara entre páginas, componentes reutilizáveis e estilos globais:
+
+- **components**: Componentes reutilizáveis (Header, Footer, Container, Card), cada um com seus próprios estilos.
+- **pages**: Páginas da aplicação (Home, Sobre, Projetos, Contatos, NotFound, PageBase), organizadas por rota.
+- **PageBase**: componente interno utilizado para estruturar o layout (Header + Footer + Container). Não é uma página acessível ao usuário, mas facilita a criação das páginas visíveis.
+- **styles**: Estilos globais, variáveis de cores e mixins Sass utilizados em toda a aplicação.
+- **App.tsx**: Configuração principal da aplicação e rotas.
+- **main.tsx**: Ponto de entrada do React.
+
+# Funcionalidades
+
+- Navegação entre páginas: Home, Sobre, Projetos, Contatos, PageBase e NotFound
+- Listagem dinâmica de repositórios do GitHub em cards com links diretos
+- Função de busca para filtrar projetos dinamicamente
+- Menu hamburger funcional e responsivo
+- Layout responsivo para diferentes tamanhos de tela
+- Componentes estruturados com TypeScript e Arrow Functions
+- Requisições assíncronas com hooks (useEffect)
+- Renderização condicional baseada nos dados da API
+
 
 ## Tecnologias Utilizadas:
 
-- **`React`**  
-- **`Sass`** (pré-processador)  
-- **`TypeScript`**
-- **`Vite`**
+- **React**
+- **TypeScript**
+- **Vite**
+- **Sass**
+- **React Router DOM**
+- **React Icons**
+- **API Fetch**
 
-## Documentações:
 
-- [vite](https://vitejs.dev/)
-- [React](https://react.dev/)
-- [Sass](https://sass-lang.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React-Router-Dom](https://reactrouter.com/)
-[react-icons](https://react-icons.github.io/react-icons/)
-
-## Clonar o Repositório:
-
+## Como Executar o Projeto
     git clone https://github.com/denneraladim/portfolio.git
-
- ## Criação do projeto com vite, react e TypeScript (se ainda não tiver) e entrar na pasta: 
-
-    npm create vite@latest Portfolio
-    cd portfolio
-
-## Execute a aplicação
-
+    npm install
      npm run dev  
 
-## Instalação das Dependências:
-    npm install sass
-    npm install react-router-dom
-    npm install react-icons
+## Responsividade
 
-## Etapas do Desenvolvimento:
-
-1. Configuração do projeto React com TypeScript e Sass, incluindo reset e estilos globais.
-
-2. Inserção da fonte Roboto via Google Fonts.
-
-3. Controle de versão com Git e hospedagem no GitHub.
-
-4. Criação das Pastas Pages e Components.
-
-5. Desenvolvimento de componentes: Header, Footer, Container e Card.
-
-6. Criação das páginas: Home, Sobre, Projetos, Contatos e NotFound.
-
-7. Configuração de rotas com React Router DOM, incluindo rotas aninhadas.
-
-8. Uso da biblioteca React Icons para ícones.
-
-9. Implementação da API do GitHub para listar projetos dinamicamente.
-
-10. Criação do menu hamburger e mapeamento dos links dos projetos.
-
-11. Criação e utilização de **`Sass Mixins`** para centralizar e reutilizar estilos, deixando o código mais limpo e de fácil manutenção.
-
-
-## Funcionalidades:
-
-1. Componentes criados como Arrow Functions com tipagem do TypeScript.
-
-2. Container tipado para estruturar componentes de forma consistente.
-
-3. Página 404 personalizada (não encontrada).
-
-4. Ícones inseridos na página de contatos utilizando React Icons.
-
-5. State para renderizar dinamicamente os cards de projetos.
-
-6. Requisição da API do GitHub para listar repositórios.
-
-7. Hooks (useEffect) para requisições assíncronas.
-
-8. Função de busca para filtrar projetos dinamicamente.
-
-9. Renderização condicional baseada nos dados da API.
-
-10. Listagem dinâmica dos repositórios do GitHub com geração automática de cards e links.
-
-11. Menu Hamburger totalmente funcional e responsivo.
-
-
-##  Responsividade
-
-- Layout projetado para funcionar bem em dispositivos móveis, mas também adaptado a telas maiores.
-
-- Implementada com Sass Mixins para centralização e reutilização de estilos.
-
-- Uso de media queries para adaptação de fontes, espaçamentos e layout em diferentes resoluções.
-
-- Menu Hamburger funcional para navegação em dispositivos móveis.
-
-
-## Licença
-
-- Este projeto está licenciado sob a **[MIT License](LICENSE)**.
+O layout foi desenvolvido com abordagem mobile-first, utilizando media queries e mixins do Sass para garantir adaptação a diferentes dispositivos, incluindo desktop, tablet e mobile.
 
   
 
